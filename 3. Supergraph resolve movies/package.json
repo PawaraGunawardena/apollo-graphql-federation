@@ -1,0 +1,27 @@
+{
+  "name": "apollo-graphql-federation-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "concurrently -k npm:server:*",
+    "server:rest": "json-server -q db.json",
+    "server:movies": "nodemon movies/index.js",
+    "server:graphql": "nodemon gateway/index.js"
+  },
+  "author": "Pawara Gunawardena",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/gateway": "^2.5.6",
+    "@apollo/subgraph": "^2.5.6",
+    "apollo-server": "^3.12.1",
+    "concurrently": "^8.2.2",
+    "graphql": "^16.8.1",
+    "json-server": "^0.17.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
