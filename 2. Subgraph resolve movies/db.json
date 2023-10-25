@@ -1,0 +1,160 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Fly a kite",
+      "duration": 85,
+      "genre": "Fantasy",
+      "views": 1200
+    },
+    {
+      "id": 2,
+      "name": "Summer Bay",
+      "duration": 110,
+      "genre": "Adventure",
+      "views": 380
+    },
+    {
+      "id": 3,
+      "name": "Tide Ride",
+      "duration": 85,
+      "genre": "Drama",
+      "views": 215
+    },
+    {
+      "id": 4,
+      "name": "Capnella",
+      "duration": 95,
+      "genre": "Drama",
+      "views": 650
+    },
+    {
+      "id": 5,
+      "name": "Chemicals",
+      "duration": 88,
+      "genre": "Science Fiction",
+      "views": 1020
+    },
+    {
+      "id": 6,
+      "name": "Shelter",
+      "duration": 90,
+      "genre": "Fantasy",
+      "views": 300
+    }
+  ],
+  "prices": [
+    {
+      "id": 1,
+      "referenceEntityId": 1,
+      "entityPrice": {
+        "amount": 7,
+        "currency": "USD"
+      },
+      "serviceCharges": {
+        "stream": {
+          "amount": 1,
+          "currency": "USD"
+        },
+        "support": {
+          "amount": 0.1,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "referenceEntityId": 2,
+      "entityPrice": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "serviceCharges": {
+        "stream": {
+          "amount": 0.9,
+          "currency": "USD"
+        },
+        "support": {
+          "amount": 0.15,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "referenceEntityId": 3,
+      "entityPrice": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "serviceCharges": {
+        "stream": {
+          "amount": 0.6,
+          "currency": "USD"
+        },
+        "support": {
+          "amount": 0.15,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "referenceEntityId": 4,
+      "entityPrice": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "serviceCharges": {
+        "stream": {
+          "amount": 1.2,
+          "currency": "USD"
+        },
+        "support": {
+          "amount": 0.2,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "referenceEntityId": 5,
+      "entityPrice": {
+        "amount": 4,
+        "currency": "USD"
+      },
+      "serviceCharges": {
+        "stream": {
+          "amount": 0.7,
+          "currency": "USD"
+        },
+        "support": {
+          "amount": 0.1,
+          "currency": "USD"
+        }
+      }
+    }
+  ],
+  "discounts": [
+    {
+      "id": 1,
+      "referenceEntityId": 1,
+      "validityPeriod": {
+        "beginMonth": 8,
+        "endMonth": 11
+      },
+      "amount": 1,
+      "type": "amount"
+    },
+    {
+      "id": 2,
+      "referenceEntityId": 5,
+      "validityPeriod": {
+        "beginMonth": 7,
+        "endMonth": 10
+      },
+      "amount": 20,
+      "type": "percentage"
+    }
+  ]
+}
